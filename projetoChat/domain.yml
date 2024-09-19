@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - agendamento_consulta
+  - agendamento_especialidade
+  - agendamento_data_hora
+  - agradecimento
+  - finalizacao
+
+responses:
+  utter_saudacao:
+  - text: "Olá! Bem-vindo(a) a clínica do Doutor KS. Como podemos ajudar?"
+
+  utter_agendamento_consulta:
+  - text: "Claro! Iremos encaminhar os seus dados para nossa central. Favor me informe a especialidade desejada."
+
+  utter_agendamento_especialidade:
+  - text: "Entendido. Qual a data e o período (manhã/tarde) que você prefere?"
+
+  utter_agendamento_data_hora:
+  - text: "Certo, iremos encaminhar essa informações para nossa central de atendimento. Logo mais nós entraremos em contato novamente para finalização do agendamento."
+
+  utter_finalizacao:
+  - text: "Ficamos a disposição. Até breve!"
+
+  utter_agradecimento:
+  - text: "Por nada, ficamos felizes em atendê-lo(a)"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,84 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - Olá
+    - Oi
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+    - Tudo bem?
+    - Como vai?
+    - E aí?
+    - Opa
+    - Saudações
+
+- intent: agendamento_consulta
+  examples: |
+    - Quero marcar uma consulta
+    - Gostaria de agendar uma consulta
+    - Preciso marcar um horário
+    - Agendar consulta médica
+    - Quero uma consulta médica
+    - Preciso de um horário com o médico
+    - Marcar consulta
+    - Como faço para marcar uma consulta?
+    - Gostaria de um horário disponível
+    - Agendar consulta com o médico
+
+- intent: agendamento_especialidade
+  examples: |
+    - Cardiologista
+    - Quero agendar com um Dermatologista
+    - Marcar consulta com Ortopedista
+    - Ginecologista
+    - Especialidade de Clínico Geral
+    - Preciso de um Pediatra
+    - Qual especialista está disponível?
+    - Preciso de uma especialidade específica
+    - Marcar especialidade de Neurologia
+    - Quero marcar com um especialista
+
+- intent: agendamento_data_hora
+  examples: |
+    - Quais horários estão disponíveis?
+    - Disponibilidade para esta semana
+    - Quero agendar para [data]
+    - Horário para [hora]
+    - Tenho disponibilidade na sexta
+    - Preciso agendar para a próxima segunda
+    - Marcar para a manhã de terça-feira
+    - Quais horários disponíveis para [data]?
+    - Posso agendar para o dia [data]?
+    - Quero um horário para [hora]
+
+- intent: agradecimento
+  examples: |
+    - Obrigado
+    - Valeu
+    - Muito obrigado
+    - Agradeço
+    - Obrigada
+    - Agradeço pela ajuda
+    - Valeu pela atenção
+    - Muito obrigado pela assistência
+    - Gratidão
+    - Fico agradecido
+    - vlw
+    - tmj
+    - obg
+
+- intent: finalizacao
+  examples: |
+    - É isso
+    - Pode finalizar
+    - Terminei
+    - Finalizar o atendimento
+    - Já terminei
+    - Acabou
+    - Tudo certo
+    - Finalizar por aqui
+    - Pode encerrar
+    - Tudo resolvido
+
