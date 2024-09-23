@@ -2,31 +2,37 @@ version: "3.1"
 
 intents:
   - saudacao
-  - agendamento_consulta
-  - agendamento_especialidade
-  - agendamento_data_hora
-  - agradecimento
+  - dados_do_cliente
+  - desejo_cliente
   - finalizacao
+  - agradecimento
+  
 
 responses:
   utter_saudacao:
-  - text: "Olá! Bem-vindo(a) a clínica do Doutor KS. Como podemos ajudar?"
+  - text: "Olá! Bem-vindo(a) a central de atendimento do C7 Bank"
 
-  utter_agendamento_consulta:
-  - text: "Claro! Iremos encaminhar os seus dados para nossa central. Favor me informe a especialidade desejada."
+  utter_dados_do_cliente:
+  - text: "Antes de darmos continuidade preciso de alguns dados:
+          CPF;
+          E-mail;
+          Telefone;"
 
-  utter_agendamento_especialidade:
-  - text: "Entendido. Qual a data e o período (manhã/tarde) que você prefere?"
-
-  utter_agendamento_data_hora:
-  - text: "Certo, iremos encaminhar essa informações para nossa central de atendimento. Logo mais nós entraremos em contato novamente para finalização do agendamento."
+  utter_desejo_cliente:
+  - text: "Obrigado pelos dados. Como podemos ajudar?
+          1. Perda de cartão
+          2. Problemas de login
+          3. Fraude
+          
+          Digite o número correspondente para a sua solicitação."
 
   utter_finalizacao:
-  - text: "Ficamos a disposição. Até breve!"
+  - text: "Certo, iremos encaminhar essa informações para nossa central de atendimento. Logo mais nós entraremos em contato novamente para finalização do agendamento."
 
   utter_agradecimento:
-  - text: "Por nada, ficamos felizes em atendê-lo(a)"
+  - text: "Ficamos a disposição!"
 
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+
