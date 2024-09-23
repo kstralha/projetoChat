@@ -3,29 +3,88 @@ version: "3.1"
 nlu:
 - intent: saudacao
   examples: |
-    - Olá
-    - Oi
-    - Bom dia
-    - Boa tarde
-    - Boa noite
-    - Tudo bem?
-    - Como vai?
-    - E aí?
-    - Opa
-    - Saudações
+   - E aí?
+   - Oi, tudo bem?
+   - Salve!
+   - Fala!
+   - Beleza?
+   - E aí, sumido(a)?
+   - Boa!
+   - Salve, salve!
+   - E aí, tudo tranquilo?
+   - Opa, tudo certo?
+   - E aí, como vai?
+   - Frases Formais:
+   - Bom dia.
+   - Boa tarde.
+   - Boa noite.
+   - Salve! Como vai?
+   - Como vai? Tudo bem?
+   - Gostaria de cumprimentá-lo(a).
+   - Seja bem-vindo(a).
+   - Seja bem-vindo(a) de volta.
+   - É um prazer falar com você.
+   - Como posso ajudar?
+   - Oi, td bem?
+   - Eae, blz?
+   - Fala, tudo tranquilo?
+   - Blz, e vc?
+   - E aí, sumido?
+   - Opa, tudo certo?
+   - Boa! E aí?
+   - Salve, salve! Como vai?
+   - E aí, como vai? Tudo tranquilo?
+   - Opa, tudo certo? Como posso ajudar?
 
-- intent: agendamento_consulta
+- intent: dados_do_cliente
   examples: |
-    - Quero marcar uma consulta
-    - Gostaria de agendar uma consulta
-    - Preciso marcar um horário
-    - Agendar consulta médica
-    - Quero uma consulta médica
-    - Preciso de um horário com o médico
-    - Marcar consulta
-    - Como faço para marcar uma consulta?
-    - Gostaria de um horário disponível
-    - Agendar consulta com o médico
+    - (11) 98765-4321
+    - (21) 91234-5678
+    - (31) 99876-5432
+    - (41) 98123-4567
+    - (51) 99765-4321
+    - (61) 98712-3456
+    - (71) 99654-3210
+    - (81) 91234-0987
+    - (91) 98765-4321
+    - (32) 99876-1234
+    - (42) 98123-6543
+    - (52) 99765-9876
+    - (62) 98712-4567
+    - (72) 99654-8765
+    - (82) 91234-5432
+    - 123.456.789-09
+    - 987.654.321-00
+    - 321.654.987-12
+    - 654.321.987-34
+    - 567.890.123-45
+    - 890.123.456-56
+    - 234.567.890-67
+    - 678.901.234-78
+    - 890.234.567-89
+    - 345.678.901-90
+    - 567.123.890-01
+    - 890.345.678-12
+    - 345.890.123-23
+    - 678.234.567-34
+    - 234.890.678-45
+    - exemplo1@gmail.com
+    - usuario2@yahoo.com.br
+    - teste3@outlook.com
+    - contato4@empresa.com.br
+    - cliente5@hotmail.com
+    - suporte6@gmail.com
+    - exemplo7@dominio.com
+    - nome8@provedor.com.br
+    - usuario9@corp.com
+    - contato10@exemplo.com
+    - cliente11@empresa.com
+    - suporte12@servidor.com.br
+    - teste13@webmail.com
+    - nome14@provedor.net
+    - usuario15@dominio.com.br
+
+
 
 - intent: agendamento_especialidade
   examples: |
@@ -69,16 +128,18 @@ nlu:
     - tmj
     - obg
 
-- intent: finalizacao
+- intent: desejo
   examples: |
-    - É isso
-    - Pode finalizar
-    - Terminei
-    - Finalizar o atendimento
-    - Já terminei
-    - Acabou
-    - Tudo certo
-    - Finalizar por aqui
-    - Pode encerrar
-    - Tudo resolvido
+    - perda
+    - fraude
+    - bloqueio
+    - ajuda
+
+
+intent: perda
+  examples: |
+    - 1
+
+
+
 
