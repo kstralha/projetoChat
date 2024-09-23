@@ -6,7 +6,7 @@ stories:
   steps:
   - intent: saudacao
   - action: utter_saudacao
-  - intent: agendamento_consulta
+  - intent: agendamento_consulta 
   - action: utter_agendamento_consulta
   - intent: agendamento_especialidade
   - action: utter_agendamento_consulta
