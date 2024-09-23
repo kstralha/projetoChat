@@ -6,4 +6,3 @@ rules:
   steps:
   - intent: agradecimento
   - action: utter_agradecimento
-
